@@ -9,6 +9,8 @@
 
 ✅ Real-time output display
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 
 
 
@@ -16,6 +18,8 @@
 Python (Core logic)
 
 Tkinter (GUI development)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 
