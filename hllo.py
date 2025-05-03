@@ -28,3 +28,22 @@ def encrypt(message):
             cipher += ' '
     return cipher
 
+def decrypt(message):
+    message += ' '
+    decipher = ''
+    citext = ''
+    space_count = 0
+
+    for letter in message:
+        if letter != ' ':
+            space_count = 0
+            citext += letter
+        else:
+            space_count += 1
+            if space_count == 2:
+                decipher += ' '
+            elif citext:
+                decipher += list(MORSE_CODE_DICT.keys())[list(MORSE_CODE_DICT.values()).index(citext)]
+                citext = ''
+    return decipher
+
