@@ -91,3 +91,5 @@ decode_btn.grid(row=0, column=1, padx=10)
 output_box = tk.Text(root, height=6, width=55, font=("Arial", 12), bg="#2d2d44", fg="#ffffff", wrap="word", borderwidth=2, relief="solid")
 output_box.pack(pady=20)
 
+# Run
+root.mainloop()
