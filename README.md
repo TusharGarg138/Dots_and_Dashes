@@ -8,3 +8,9 @@
 ✅ Dark mode UI with stylish buttons and fonts
 
 ✅ Real-time output display
+
+
+🛠️ Tech Stack:
+Python (Core logic)
+
+Tkinter (GUI development)
