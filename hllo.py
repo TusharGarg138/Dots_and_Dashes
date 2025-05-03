@@ -47,3 +47,16 @@ def decrypt(message):
                 citext = ''
     return decipher
 
+def encode_text():
+    input_text = entry.get()
+    result = encrypt(input_text)
+    output_box.delete(1.0, tk.END)
+    output_box.insert(tk.END, result)
+
+def decode_text():
+    input_text = entry.get()
+    result = decrypt(input_text)
+    output_box.delete(1.0, tk.END)
+    output_box.insert(tk.END, result)
+
+
