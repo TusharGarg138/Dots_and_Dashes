@@ -1,3 +1,9 @@
+![image](https://github.com/user-attachments/assets/f9dc820c-7a9b-4b2e-9039-dcd86ab1fb00)
+
+that's how it looks
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 🎯 Features:
 ✅ Converts plain English text to Morse code
 
