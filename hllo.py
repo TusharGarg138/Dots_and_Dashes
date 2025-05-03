@@ -59,4 +59,18 @@ def decode_text():
     output_box.delete(1.0, tk.END)
     output_box.insert(tk.END, result)
 
+# GUI setup
+root = tk.Tk()
+root.title("Morse Code Converter")
+root.geometry("500x400")
+root.configure(bg="#1e1e2f")  # Dark background
+
+# Fonts
+title_font = font.Font(family="Helvetica", size=20, weight="bold")
+btn_font = font.Font(family="Arial", size=12, weight="bold")
+
+# Title
+title = tk.Label(root, text="Morse Code Converter", font=title_font, fg="#00ffd5", bg="#1e1e2f")
+title.pack(pady=20)
+
 
